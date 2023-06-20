@@ -1,0 +1,35 @@
+.learn {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#about {
+    margin-top: 40px;
+    color: #EE3626;
+    font-size: 16px;
+}
+
+.main-learn p {
+    color: #F9F9F9;
+    font-size: 18px;
+}
+
+.about-title {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px !important;
+    font-weight: 600;
+}
+
+/* @media (max-width: 1024px) {
+    .all p {
+        font-size: 25px;
+    }
+    .learn {
+        font-size: 28px;
+    }
+    #about {
+        font-size: 25px;
+    }
+  } */

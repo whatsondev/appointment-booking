@@ -1,0 +1,111 @@
+/* top banner */
+
+.wave-banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 1440px !important;
+    height: 910px;
+    /* Adjust the height as needed */
+}
+
+.hero-content {
+    padding: 0 !important;
+}
+
+.wave-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #f2f2f2; Adjust the background color as needed */
+    z-index: -1;
+    pointer-events: none;
+}
+
+.banner-title {
+    display: flex;
+    margin-top: 190px;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+/* top banner end*/
+
+.rdp-nav_button_previous {
+    display: none;
+}
+
+/* .bd{
+    background: red;
+} */
+/* .rdp{
+    width: 500px !important;
+}
+
+table{
+    max-width: 500px !important;
+} */
+.rdp-table {
+    table-layout: auto;
+}
+
+.rdp {
+    --rdp-cell-size: 70.58px !important;
+    --rdp-accent-color: #0000ff;
+    --rdp-background-color: #e7edff;
+    --rdp-accent-color-dark: #3003e1;
+    --rdp-background-color-dark: #180270;
+    --rdp-outline: 2px solid var(--rdp-accent-color);
+    --rdp-outline-selected: 3px solid var(--rdp-accent-color);
+    margin: 1em;
+    left: calc(50% - 526px/2 - 0.5px);
+}
+
+.rdp-caption {
+    font-weight: 600 !important;
+    font-size: 33.7179px !important;
+    line-height: 46px !important;
+    color: black !important;
+    font-style: normal !important;
+}
+
+.rdp-caption_label {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 0.25em;
+    white-space: nowrap;
+    color: currentColor;
+    border: 0;
+    border: 2px solid transparent;
+    font-family: 'Open Sans' !important;
+    /* font-size: 140%; */
+    font-size: 33.7179px !important;
+}
+
+.calender {
+    border-radius: 30.3462px;
+    box-shadow: 5.05769px 6.74359px 16.859px 3.37179px rgba(0, 0, 0, 0.05);
+    /* background: White; */
+    width: 526px;
+    height: 526px;
+    z-index: 2222;
+    /* margin-bottom: -88px; */
+}
+/* .cal-round{
+    display: flex;
+    max-width: 550px;
+    justify-content: space-between;
+    margin: auto;
+} */
+/* .ellipse {
+    width: 102px;
+    height: 102px;
+    background: #EE3626;
+    display: flex;
+} */

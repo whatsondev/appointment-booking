@@ -1,0 +1,32 @@
+.top-service {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 4px;
+    color: #EE3626;
+
+}
+
+.time {
+    color: #101828;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 40px;
+}
+
+/* .service-all{
+    background: #FAFAFA;
+} */
+
+
+@media (max-width: 1020px) {
+
+    .card {
+        max-width: 384px;
+    }
+}

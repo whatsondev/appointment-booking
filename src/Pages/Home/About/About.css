@@ -1,0 +1,37 @@
+.main-about{
+    background: black;
+    height: 811px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: calc(50% - 1440px/2); */
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: white;
+}
+.image img{
+    width: 588px;
+
+}
+
+.image{
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .main-about{
+        height: auto !important;
+        padding: 80px 0px;
+    }
+    /* .image {
+        width: auto;
+    } */
+  }
+@media (max-width: 678px) {
+    .sub-about{
+        padding: 0 30px;
+    }
+  }

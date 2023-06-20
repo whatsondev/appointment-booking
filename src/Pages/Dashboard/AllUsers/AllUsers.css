@@ -1,0 +1,13 @@
+.admin{
+    background: rgb(63, 63, 238);
+}
+.admin .btn:hover, .btn-active {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--nf, var(--n)) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    /* background-color: rgb(63, 63, 238) !important; */
+    background: transparent !important;
+}
+.delete{
+    background: rgb(247, 22, 22);
+}

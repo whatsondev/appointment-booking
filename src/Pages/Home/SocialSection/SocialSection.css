@@ -1,0 +1,101 @@
+.main-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.social {
+    background: #000000;
+    color: #FFFFFF;
+    /* width: 770px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 216px;
+    border-radius: 20px;
+    /* left: calc(50% - 1200px/2); */
+}
+
+.social-in {
+    padding: 0 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.social p {
+    font-size: 20px;
+}
+
+.section-icon {
+    display: flex;
+    gap: 28px;
+    margin-top: 40px;
+    justify-content: center
+}
+
+.section-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-icon a .MuiSvgIcon-root {
+    width: 42px !important;
+    height: 42px !important;
+}
+
+#twit {
+    color: #1DA1F2;
+}
+
+#face {
+    color: #1877F2;
+}
+
+#ins {
+    /* background: linear-gradient(to top, #FF7F2C, #FBAE7B, #FC7116); */
+    color: #ec2929;
+}
+
+#link-in {
+    color: #0A66C2;
+}
+
+#pin {
+    color: #E60019;
+}
+
+#youtube {
+    color: #FF0302;
+}
+
+#reddit {
+    background: #FF4500;
+    border-radius: 20px;
+}
+
+#telegram {
+    color: #1DA1F2;
+}
+
+@media (max-width: 1024px) {
+    .main-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 678px) {}

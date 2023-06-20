@@ -1,0 +1,49 @@
+.main-client-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF3F1;
+    margin-top: 100px;
+}
+#client-title{
+    color: #EE3626;
+    font-weight: 800;
+    font-size: 20px;
+}
+.mid-client{
+    margin: 96px 80px;
+}
+
+.mid-client .slide-img{
+margin: auto;
+}
+
+.slick-slide img {
+    display: block;
+    margin: auto !important;
+}
+.slide-img{
+    width: 64px;
+    height: 64px;
+}
+.slide-content {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    height: 100%;
+    text-align: center;
+    gap: 32px;
+  }
+.cont{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+    margin: 32px;
+}
+#des{
+    color: #101828;
+}
+#company{
+    color: #667085;
+}

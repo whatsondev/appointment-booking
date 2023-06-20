@@ -1,0 +1,55 @@
+.service-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #101828;;
+}
+
+.card-body {
+    padding: 30px 40px;
+    border-radius: 12px !important;
+    border: 1px solid rgba(216, 216, 216, 0.4);
+    box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    grid-gap: 40px !important;
+    padding-bottom: 10px;
+}
+
+#time {
+    color: #646464;
+}
+
+#slot {
+    color: #4A4A4A;
+}
+
+.card-body :where(p) {
+    flex-grow: 0 !important;
+}
+
+.appointment .btn {
+    border-color: aliceblue !important;
+    border: none !important;
+    background: white;
+
+}
+
+.book-button { 
+    color: #EE3626;
+    padding: 0 !important;
+    font-size: 18px;
+}
+
+.appointment .btn:hover,
+.btn-active {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--nf, var(--n)) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.MuiSvgIcon-root {
+    width: 12px !important;
+    margin-left: 5px;
+}
