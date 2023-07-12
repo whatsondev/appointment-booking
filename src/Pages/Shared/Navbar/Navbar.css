@@ -2,7 +2,7 @@
     padding: 30px 120px;
 }
 .menu-horizontal {
-    column-gap: 50px !important;
+    column-gap: 20px !important;
 }
 
 .navbar-center {
@@ -32,3 +32,31 @@
     border-radius: 40px !important;
     font-size: 14px !important;
 }
+.navbar-end {
+    width: 33% !important;
+}
+@media (max-width: 414px) {
+    .navbar {
+        padding: 47px 7px;
+    }
+    .menu{
+        background: white;
+    }
+
+  }
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 30px 10px;
+        margin: 0;
+    }
+    .navbar-end {
+        width: 20% !important;
+    }
+    .navbar-start{
+        width: fit-content;
+    }
+    .navbar-end {
+        width: 12% !important;
+    }
+    
+  }

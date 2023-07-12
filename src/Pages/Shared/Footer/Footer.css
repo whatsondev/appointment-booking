@@ -26,7 +26,7 @@
 
 .footer .link {
     color: #667085;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif !important;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -41,7 +41,7 @@
 .divider-bottom {
     margin: auto;
     border-color: #636363;
-    width: 1216px;
+    /* width: 1216px; */
 }
 
 .footer-bottom {
@@ -80,13 +80,35 @@
     width: 24px !important;
     margin-left: 5px;
 }
-.copy-right a{
+
+.copy-right a {
     width: 24px !important;
 }
+
 @media (max-width: 768px) {
     .footer-bottom {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .social-icons {
+        gap: 10px;
+    }
+
+    .section-icon a .MuiSvgIcon-root {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-bottom {
+        justify-content: space-around;
+    }
+    .footer-bg{
+        width: 100%;
     }
 }

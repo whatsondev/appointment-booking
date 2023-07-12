@@ -4,9 +4,8 @@ import { Twitter, FacebookRounded, Instagram, LinkedIn, GitHub, Pinterest, Reddi
 
 const SocialSection = () => {
     return (
-        <div className='max-w-[1440px] main-social container' >
-            <div className='max-w-[1200px] social container'>
-                <div className='social-in container'>
+        <div className='max-w-[1200px] lg:w-11/12 main-social container mx-auto' >
+            <div className=' social container'>
                     <h1 className='about-title'>Follow the progress on any platform.</h1>
                     <p>Follow the WhatsOn Digital Agency to any platform</p>
                     <div id='social-icon' className="section-icon container">
@@ -38,7 +37,7 @@ const SocialSection = () => {
                             <Telegram />
                         </a>
                     </div>
-                </div>
+                
             </div>
         </div>
     );

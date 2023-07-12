@@ -18,6 +18,8 @@ import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 import SignUp from "../../Pages/SignUp/SignUp";
 import AdminRoute from "../AdminRoute/AdminRoute";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import About from "../../Pages/Home/About/About";
+import SocialSection from "../../Pages/Home/SocialSection/SocialSection";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Appointment></Appointment>
+            },
+            {
+                path: '/about',
+                element: <About></About>
+            },
+            {
+                path: '/SocialSection',
+                element: <SocialSection></SocialSection>
             },
             {
                 path: '/login',

@@ -9,7 +9,7 @@ import white from '../../../assets/images/footer logo.png';
 
 const Footer = () => {
     return (
-        <footer className='max-w-[1440px] footer-bg container'>
+        <footer className='max-w-[1440px] lg:w-full w-full footer-bg container'>
             <div className="footer">
                 <div>
                     <span className="footer-title">

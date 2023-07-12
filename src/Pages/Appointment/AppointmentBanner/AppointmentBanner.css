@@ -4,7 +4,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    width: 1440px !important;
+    /* width: 1440px !important; */
     height: 910px;
     /* Adjust the height as needed */
 }
@@ -83,9 +83,13 @@ table{
     color: currentColor;
     border: 0;
     border: 2px solid transparent;
-    font-family: 'Open Sans' !important;
+    /* font-family: 'Open Sans' !important; */
+    font-family: 'Inter', sans-serif !important;
     /* font-size: 140%; */
     font-size: 33.7179px !important;
+}
+.rdp-button_reset {
+    font-family: 'Inter', sans-serif !important;
 }
 
 .calender {
@@ -93,19 +97,44 @@ table{
     box-shadow: 5.05769px 6.74359px 16.859px 3.37179px rgba(0, 0, 0, 0.05);
     /* background: White; */
     width: 526px;
-    height: 526px;
+    height: auto;
     z-index: 2222;
     /* margin-bottom: -88px; */
 }
-/* .cal-round{
-    display: flex;
-    max-width: 550px;
-    justify-content: space-between;
-    margin: auto;
-} */
-/* .ellipse {
-    width: 102px;
-    height: 102px;
-    background: #EE3626;
-    display: flex;
-} */
+
+.rdp-caption_label {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 33.7179px!important;
+}
+
+@media (max-width: 1024px) {
+    
+  }
+
+
+@media (max-width: 414px) {
+    .hero {
+        justify-content: center;
+    }
+    .wave-banner{
+        height: 620px;
+    }
+    .calender {
+        width: 357px;
+    }
+    .rdp{
+        --rdp-cell-size: 48.58px !important;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .wave-banner{
+        height: 620px;
+    }
+    .calender {
+        width: 320px;
+    }
+    .rdp{
+        --rdp-cell-size: 45.58px !important;
+    }
+}

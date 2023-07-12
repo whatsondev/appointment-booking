@@ -1,7 +1,7 @@
 .background {
   background: linear-gradient(180deg, rgba(238, 50, 38, 0.2) 0%, rgba(255, 127, 44, 0) 100%);
   height: 930px;
-  width: 1437.5px;
+  /* width: 1437.5px; */
   height: 945px;
   top: 0px;
 
@@ -53,11 +53,20 @@ body {
 
 
 @media (max-width: 1920px) {
-  .background{
+  .background {
     background: linear-gradient(180deg, rgba(238, 50, 38, 0.2) 0%, rgba(255, 127, 44, 0) 100%);
     /* height: 930px;
     width: 1437.5px;
     height: 945px;
     top: 0px; */
+  }
+}
+
+@media (max-width: 414px) {
+  .background {
+    background: linear-gradient(180deg, rgba(238, 50, 38, 0.2) 0%, rgba(255, 127, 44, 0) 100%);
+    height: 540px;
+    width: 100%;
+    top: 0px;
   }
 }

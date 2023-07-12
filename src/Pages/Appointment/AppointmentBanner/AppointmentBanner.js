@@ -5,10 +5,10 @@ import WaveShape from '../../Home/WaveShape/WaveShape';
 const AppointmentBanner = ({ selectedDate, setSelectedDate }) => {
     return (
         <header id="overlay" className=''>
-            <div className="hero container">
-                <div className="hero-content flex-col container">
+            <div className="hero ">
+                <div className="hero-content flex-col  justify-center">
                     <WaveShape />
-                    <div className='calender'>
+                    <div className='calender  flex justify-center items-center w-full'>
                         <DayPicker className='container'
                             mode='single'
                             selected={selectedDate}

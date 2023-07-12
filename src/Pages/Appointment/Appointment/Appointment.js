@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import AppointmentBanner from '../AppointmentBanner/AppointmentBanner';
 import AvailableAppointments from '../AvailableAppointments/AvailableAppointments';
-import About from '../../Home/About/About';
-import ClientSection from '../../Home/ClientSection/ClientSection';
-import SocialSection from '../../Home/SocialSection/SocialSection';
-
+import Home from '../../Home/Home/Home';
 const Appointment = () => {
     const [selectedDate, setSelectedDate] = useState(new Date())
     return (
@@ -20,9 +17,7 @@ const Appointment = () => {
                 ></AvailableAppointments>
             </div>
             <div>
-                <About></About>
-                <ClientSection></ClientSection>
-                <SocialSection></SocialSection>
+              <Home></Home>
             </div>
         </div>
 

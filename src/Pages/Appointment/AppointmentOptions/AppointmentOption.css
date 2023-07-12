@@ -1,7 +1,8 @@
 .service-title {
     font-size: 24px;
     font-weight: 700;
-    color: #101828;;
+    color: #101828;
+    ;
 }
 
 .card-body {
@@ -35,7 +36,7 @@
 
 }
 
-.book-button { 
+.book-button {
     color: #EE3626;
     padding: 0 !important;
     font-size: 18px;
@@ -53,3 +54,9 @@
     width: 12px !important;
     margin-left: 5px;
 }
+
+/* @media (max-width: 414px) {
+    .card-body {
+        margin: auto;
+    }
+} */

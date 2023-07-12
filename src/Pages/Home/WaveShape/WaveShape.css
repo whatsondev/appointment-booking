@@ -85,6 +85,7 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: -10px;
+  margin: auto;
 }
 
 .mini {
@@ -136,12 +137,38 @@
   .wave-curve {
     /* Adjust the curve's shape for smaller screens */
     transform: scaleX(1.5) scaleY(0.8);
+    width: 100% !important;
   }
 }
 
 @media (max-width: 480px) {
   .wave-curve {
     /* Further adjust the curve's shape for even smaller screens */
-    transform: scaleX(1.8) scaleY(0.6);
+    /* transform: scaleX(1.8) scaleY(0.6);
+    width: 100% !important; */
+  }
+}
+@media (max-width: 414px) {
+  .title {
+    width: 70%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    /* margin-top: 0px; */
+}
+.mini{
+  display: none;
+}
+.wave-container {
+  margin-bottom: -612px;
+}
+.start-button {
+  margin-top: 23px;
+}
+}
+@media (max-width: 1024px) {
+  .customer {
+    max-width: 973px;
   }
 }

@@ -18,21 +18,21 @@ const ClientSection = () => {
         autoplaySpeed: 3000 // Set the auto play speed in milliseconds
     };
     const slides = [
-        {
-            title: "Clients said about WhatsOn Digital Agency",
-            content: "“After evaluating a few outsourcers I decided to work with Flat world solutions because of their professional approach and ability to make changes to what we wanted. In the beginning, we had to make adjustments to the task every week.” ",
-            image: image1,
-            designation: 'Coordinator',
-            name: 'University in the United States',
+        // {
+        //     title: "Clients said about WhatsOn Digital Agency",
+        //     content: "“After evaluating a few outsourcers I decided to work with Flat world solutions because of their professional approach and ability to make changes to what we wanted. In the beginning, we had to make adjustments to the task every week.” ",
+        //     image: image1,
+        //     designation: 'Coordinator',
+        //     name: 'University in the United States',
 
-        },
-        {
-            title: 'Clients said about WhatsOn Digital Agency',
-            content: '“After evaluating a few outsourcers I decided to work with Flat world solutions because of their professional approach and ability to make changes to what we wanted. In the beginning, we had to make adjustments to the task every week.” ',
-            image: image2,
-            designation: 'Coordinator',
-            name: 'University in the United States'
-        },
+        // },
+        // {
+        //     title: 'Clients said about WhatsOn Digital Agency',
+        //     content: '“After evaluating a few outsourcers I decided to work with Flat world solutions because of their professional approach and ability to make changes to what we wanted. In the beginning, we had to make adjustments to the task every week.” ',
+        //     image: image2,
+        //     designation: 'Coordinator',
+        //     name: 'University in the United States'
+        // },
         {
             title: 'Clients said about WhatsOn Digital AgencySlide 3',
             content: '“After evaluating a few outsourcers I decided to work with Flat world solutions because of their professional approach and ability to make changes to what we wanted. In the beginning, we had to make adjustments to the task every week.” ',
@@ -42,8 +42,8 @@ const ClientSection = () => {
         }
     ];
     return (
-        <div className='max-w-[1440px] main-client-section container'>
-            <div className='max-w-[1280px] mid-client container'>
+        <div className=' main-client-section container'>
+            <div className=' mid-client container'>
                 <Slider {...settings}>
                     {slides.map((slide, index) => (
 
