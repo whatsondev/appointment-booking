@@ -4,9 +4,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    /* width: 1440px !important; */
     height: 910px;
-    /* Adjust the height as needed */
 }
 
 .hero-content {
@@ -19,7 +17,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* background-color: #f2f2f2; Adjust the background color as needed */
     z-index: -1;
     pointer-events: none;
 }
@@ -32,22 +29,9 @@
     padding: 0;
 }
 
-/* top banner end*/
-
 .rdp-nav_button_previous {
     display: none;
 }
-
-/* .bd{
-    background: red;
-} */
-/* .rdp{
-    width: 500px !important;
-}
-
-table{
-    max-width: 500px !important;
-} */
 .rdp-table {
     table-layout: auto;
 }
@@ -83,9 +67,7 @@ table{
     color: currentColor;
     border: 0;
     border: 2px solid transparent;
-    /* font-family: 'Open Sans' !important; */
     font-family: 'Inter', sans-serif !important;
-    /* font-size: 140%; */
     font-size: 33.7179px !important;
 }
 .rdp-button_reset {
@@ -95,11 +77,9 @@ table{
 .calender {
     border-radius: 30.3462px;
     box-shadow: 5.05769px 6.74359px 16.859px 3.37179px rgba(0, 0, 0, 0.05);
-    /* background: White; */
     width: 526px;
     height: auto;
     z-index: 2222;
-    /* margin-bottom: -88px; */
 }
 
 .rdp-caption_label {
@@ -107,9 +87,12 @@ table{
     font-size: 33.7179px!important;
 }
 
-@media (max-width: 1024px) {
-    
-  }
+
+
+
+/***********
+         media query 
+           *****************/
 
 
 @media (max-width: 414px) {

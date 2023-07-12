@@ -6,13 +6,9 @@ import AddSeller from "../../Pages/Dashboard/AddSeller/AddSeller";
 import AddDoctor from "../../Pages/Dashboard/AddSeller/AddSeller";
 import AllAppointment from "../../Pages/Dashboard/AllAppointment/AllAppointment";
 import AllUsers from "../../Pages/Dashboard/AllUsers/AllUsers";
-import EditUser from "../../Pages/Dashboard/EditUser/EditUser";
-import ViewUser from "../../Pages/Dashboard/EditUser/ViewUser";
 import ManageSellers from "../../Pages/Dashboard/ManageSellers/ManageSellers";
-// import Dashboard from "../../Pages/Dashboard/Dashboard/Dashboard";
 import MyAppointment from "../../Pages/Dashboard/MyAppointment/MyAppointment";
 import RecentAppointment from "../../Pages/Dashboard/RecentAppointment/RecentAppointment";
-// import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 import SignUp from "../../Pages/SignUp/SignUp";
@@ -86,19 +82,6 @@ const router = createBrowserRouter([
                 path: '/dashboard/allAppointment',
                 element: <AdminRoute><AllAppointment></AllAppointment></AdminRoute>
             },
-            {
-                path: '/dashboard/EditUser/:id',
-                element: <AdminRoute><EditUser></EditUser></AdminRoute>
-                
-            },
-            {
-                path: '/dashboard/viewUser',
-                element: <AdminRoute><ViewUser></ViewUser></AdminRoute>
-            },
-            // {
-            //     path: '/Dashboard/EditUser',
-            //     element: <AdminRoute><EditUser></EditUser></AdminRoute>
-            // },
         ]
     }
 ])

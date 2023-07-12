@@ -1,10 +1,3 @@
-// const loadSingleBooking = () => {
-//     fetch('https://booking-app-server-green.vercel.app/bookings')
-//     .then(res => res.json())
-//     .then(data => console.log(data))
-// }
-
-// loadSingleBooking();
 
 
 

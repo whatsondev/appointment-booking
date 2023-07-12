@@ -19,10 +19,11 @@
     margin-bottom: 40px;
 }
 
-/* .service-all{
-    background: #FAFAFA;
-} */
 
+
+/***********
+         media query 
+           *****************/
 
 @media (max-width: 1020px) {
 
@@ -33,5 +34,10 @@
 @media (max-width: 360px) {
     .card {
         max-width: 320px;
+    }
+}
+@media (max-width: 414px) {
+    .all-option{
+        margin: 46px 0;
     }
 }

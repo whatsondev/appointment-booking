@@ -24,7 +24,7 @@ const AvailableAppointments = ({ selectedDate }) => {
 
     return (
         <section className=''>
-            <header className='my-24 max-w-[1200px] mx-auto container'>
+            <header className='my-24 max-w-[1200px] mx-auto container all-option'>
                 <p className='text-center top-service'>Our Services</p>
                 <p className='text-center time'>Available Services on {format(selectedDate, 'PP')}</p>
                 <div className=' card grid gap-7 sm:gap-6 lg:gap-6 grid-cols-1 md:grid-cols-1 lg:grid-cols-3  max-sm:mt-6 mx-auto'>
@@ -45,11 +45,6 @@ const AvailableAppointments = ({ selectedDate }) => {
                         refetch={refetch}
                     ></BookingModal>}
             </header>
-            {/* <div>
-                <About></About>
-                <ClientSection></ClientSection>
-                <SocialSection></SocialSection>
-            </div> */}
         </section>
     );
 };

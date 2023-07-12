@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    /* left: calc(50% - 1440px/2); */
 }
 .about{
     display: flex;
@@ -22,17 +21,27 @@
     width: 100%;
 }
 
+
+
+
+
+/***********
+         media query 
+           *****************/
+
 @media (max-width: 1024px) {
     .main-about{
         height: auto !important;
         padding: 80px 0px;
     }
-    /* .image {
-        width: auto;
-    } */
   }
 @media (max-width: 678px) {
     .sub-about{
         padding: 0 30px;
+    }
+  }
+@media (max-width: 414px) {
+    .main-about {
+        margin-bottom: 50px;
     }
   }

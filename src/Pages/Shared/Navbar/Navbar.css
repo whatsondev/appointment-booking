@@ -33,8 +33,21 @@
     font-size: 14px !important;
 }
 .navbar-end {
-    width: 33% !important;
+    width: 12% !important;
 }
+.navbar-start{
+    width: fit-content;
+}
+
+
+
+
+
+/***********
+         media query 
+           *****************/
+
+           
 @media (max-width: 414px) {
     .navbar {
         padding: 47px 7px;

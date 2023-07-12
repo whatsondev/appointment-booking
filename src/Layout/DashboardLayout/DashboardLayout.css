@@ -8,6 +8,12 @@
 .custom-menu-padding{
     padding: 15px 0px 15px 15px;
 }
+
+
+/***********
+         media query 
+           *****************/
+           
 @media (max-width: 414px) {
     
     .menu{

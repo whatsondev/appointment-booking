@@ -41,7 +41,6 @@
 .divider-bottom {
     margin: auto;
     border-color: #636363;
-    /* width: 1216px; */
 }
 
 .footer-bottom {
@@ -71,11 +70,8 @@
     justify-content: center;
     width: 24px !important;
     height: 24px !important;
-}
+} 
 
-/* .MuiSvgIcon-root{
-    width: 24px !important;
-} */
 .social-icons a .MuiSvgIcon-root {
     width: 24px !important;
     margin-left: 5px;
@@ -85,6 +81,12 @@
     width: 24px !important;
 }
 
+
+
+/***********
+         media query 
+           *****************/
+           
 @media (max-width: 768px) {
     .footer-bottom {
         flex-direction: column;

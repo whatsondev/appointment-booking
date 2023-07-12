@@ -21,17 +21,6 @@
   /* Adjust the color of the triangle */
   transform: rotate(72deg);
 }
-
-/* .triangle-0 {
-  margin-left: 19%;
-  margin-top: 85px;
-  width: 0;
-  height: 0;
-  border-left: 35px solid transparent;
-  border-right: 0px solid transparent;
-  border-bottom: 24px solid #F48C7F;
-  transform: rotate(72deg);
-} */
 .triangle-2 {
   margin-left: 80%;
   width: 0;
@@ -133,21 +122,19 @@
 
 
 
+
+/***********
+         media query 
+           *****************/
+
+
 @media (max-width: 768px) {
   .wave-curve {
-    /* Adjust the curve's shape for smaller screens */
     transform: scaleX(1.5) scaleY(0.8);
     width: 100% !important;
   }
 }
 
-@media (max-width: 480px) {
-  .wave-curve {
-    /* Further adjust the curve's shape for even smaller screens */
-    /* transform: scaleX(1.8) scaleY(0.6);
-    width: 100% !important; */
-  }
-}
 @media (max-width: 414px) {
   .title {
     width: 70%;
@@ -155,7 +142,6 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 46px;
-    /* margin-top: 0px; */
 }
 .mini{
   display: none;

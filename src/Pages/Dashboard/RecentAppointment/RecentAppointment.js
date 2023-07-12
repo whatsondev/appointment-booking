@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-import './RecentAppointment.css';
 import { AuthContext } from '../../../contexts/AuthProvider';
 import { useQuery } from '@tanstack/react-query';
 import ConfirmationModal from '../../Shared/ConfirmationModal/ConfirmationModal';
@@ -72,7 +71,6 @@ const RecentAppointment = () => {
               <th>Email</th>
               <th>Phone Number</th>
               <th>Date</th>
-              {/* <th>Time</th> */}
               <th>Action</th>
             </tr>
           </thead>
@@ -87,7 +85,6 @@ const RecentAppointment = () => {
                 <td>{booking.phone}</td>
 
                 <td>{booking.appointmentDate}</td>
-                {/* <td>{booking.slot}</td> */}
 
                 <td>
                   <label onClick={() => setDeletingRecentAppointment(booking)} htmlFor="confirmation-modal" className="btn btn-sm  btn-info">Remove</label>

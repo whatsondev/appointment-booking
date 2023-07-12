@@ -19,7 +19,6 @@ const DashboardLayout = () => {
                 <div className="drawer-side">
                     <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
                     <ul className="menu  dropdown-content custom-menu-padding shadow  side-menu  text-base-content">
-                        {/* menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 */}
                         <li><Link to="/dashboard">My Appointments</Link></li>
                         {
                             isAdmin &&

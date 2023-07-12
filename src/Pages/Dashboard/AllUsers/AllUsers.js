@@ -46,11 +46,11 @@ const AllUsers = () => {
         authorization: `bearer ${localStorage.getItem('accessToken')}`
       }
     })
-    .then(res => res.json())
-    .then(data => {
-      console.log(data);
-      refetch();
-    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+        refetch();
+      })
 
   }
 
@@ -66,7 +66,7 @@ const AllUsers = () => {
               <th>Email</th>
               <th>Admin</th>
               <th>Delete</th>
-            </tr> 
+            </tr>
           </thead>
           <tbody>
             {
@@ -78,9 +78,6 @@ const AllUsers = () => {
                 <td>
                   <label onClick={() => setDeleteAdmin(user)} htmlFor="confirmation-modal" className="btn btn-sm delete">Delete</label>
                 </td>
-
-                {/* <td>{ user?.role !== 'admin' && <button onClick={() => handleDeleteAdmin(user._id)} className='btn btn-xs btn-danger'>Delete</button>}</td> */}
-                {/* <td><button  className='btn btn-xs btn-danger'>Delete</button></td> */}
               </tr>)
             }
 
@@ -89,12 +86,12 @@ const AllUsers = () => {
       </div>
       {
         deleteAdmin && <ConfirmationModal
-        title={`Are you sure you want to delete?`}
-                    message={`If you delete ${deleteAdmin.name}. It cannot be undo.`}
-                    successAction = {handleDeleteAdmin}
-                    successButtonName="Delete"
-                    modalData = {deleteAdmin}
-                    closeModal={closeModal}
+          title={`Are you sure you want to delete?`}
+          message={`If you delete ${deleteAdmin.name}. It cannot be undo.`}
+          successAction={handleDeleteAdmin}
+          successButtonName="Delete"
+          modalData={deleteAdmin}
+          closeModal={closeModal}
         >
 
         </ConfirmationModal>
